@@ -1,0 +1,30 @@
+{
+    "best_configurations": {
+        "SVM": {
+            "C": 8.129477481319464,
+            "coef0": 6.1252533932455835,
+            "degree": 9,
+            "gamma": "scale",
+            "kernel": "linear",
+            "shrinking": false,
+            "tol": 0.08111621007989843
+        },
+        "XGBoost": {
+            "gamma": 0.22758468729670714,
+            "learning_rate": 0.03277228215633764,
+            "max_depth": 8,
+            "min_child_weight": 2.1459042606982752,
+            "n_estimators": 775,
+            "subsample": 0.7558997029980279
+        },
+        "RF": {
+            "bootstrap": true,
+            "max_depth": 3,
+            "max_features": "log2",
+            "min_samples_leaf": 1,
+            "min_samples_split": 5,
+            "n_estimators": 100
+        }
+    },
+    "best_cv_model": "XGBoost"
+}
